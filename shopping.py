@@ -1,7 +1,6 @@
-import sys
-
+# Creating the Product class which stores information on the product name, price, quantity, EAN and branc
 class Product:
-  def __init__(self, name, price, quantity, EAN_identifier, brand):
+  def __init__(self, name, price, quantity, EAN, brand):
     self.__name =name
 
     # Performing validations of the input data
